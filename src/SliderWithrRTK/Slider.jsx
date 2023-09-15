@@ -24,7 +24,7 @@ const Slider = () => {
 
           {
               (data.loading) ?
-                <h1 className='load'>... Loading</h1>
+                <h1 className='load'>Loading ...</h1>
               :
                 <div className='slider'>
                     <div  className='box'>
